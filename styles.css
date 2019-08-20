@@ -30,7 +30,7 @@ body {
   margin:0;
 }
 
-body background {
+.background {
   max-height:100%;
   max-width:100%;
 }
