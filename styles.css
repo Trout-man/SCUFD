@@ -58,4 +58,8 @@ body, html {
   background-size: cover;
 }
 
-
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
