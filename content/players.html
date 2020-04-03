@@ -98,26 +98,6 @@ body {
 		
 			<form id="survey-form" action="/my-handling-form-page" method="post">
 				
-				<?php
-
-require 'steamauth/steamauth.php';
-
-?>
-				
-				
-				<?php
-if(!isset($_SESSION['steamid'])) {
-
-    loginbutton(); //login button
-
-}  else {
-
-    include ('steamauth/userInfo.php'); //To access the $steamprofile array
-    //Protected content
-
-    logoutbutton(); //Logout Button
-}     
-?>
 				
 		
 		<p4>Roster:</p4><p>Not covered by copyright. Copies and modifications can be made without restriction. Source code may or may not be distributed along with the executable code.</p>
